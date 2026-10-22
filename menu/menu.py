@@ -2,7 +2,11 @@ from ejercicios import ejercicio1_cine as ej1
 from ejercicios import ejercicio2_combustible as ej2
 
 def ejecutar_ejercicio1():
-    print("Ejercicio 1: Pendiente")
+    boletos = ej1.leerBoletos()
+    importe = ej1.calcularImporte(boletos)
+    descuento = ej1.calcularDescuento(boletos, importe)
+    importe_final = importe - descuento
+    ej1.mostrarImporte(boletos, importe_final)
 
 def ejecutar_ejercicio2():
     print("Ejercicio 2: Pendiente")
