@@ -13,3 +13,20 @@ Ingrese la cantidad de boletos a comprar: 1
 +----------------------------+---------------------+
 | Importe total de la compra | $75.00              |
 +----------------------------+---------------------+
+
+---Ejericicio2_Combustible---
+Ingrese la distancia recorrida en kilómetros: 120
+Ingrese la cantidad de litros consumidos: 10
++---------------------------------+---------------------+
+| Kilometros recorridos           | Litros consumidos   |
++=================================+=====================+
+| Kilometros recorridos           | 120.0               |
++---------------------------------+---------------------+
+| Litros consumidos               | 10.0                |
++---------------------------------+---------------------+
+| Precio por litro                | $24.00              |
++---------------------------------+---------------------+
+| Rendimiento del vehículo (km/l) | 12.00               |
++---------------------------------+---------------------+
+| Importe total del recorrido     | $240.00             |
++---------------------------------+---------------------+

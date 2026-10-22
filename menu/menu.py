@@ -9,7 +9,10 @@ def ejecutar_ejercicio1():
     ej1.mostrarImporte(boletos, importe_final)
 
 def ejecutar_ejercicio2():
-    print("Ejercicio 2: Pendiente")
+    distancia, litros = ej2.leerDatos()
+    rendimiento = ej2.calcularRendimiento(distancia, litros)
+    importe = ej2.calcularImporte(distancia, litros)
+    ej2.mostrarImporte(distancia, litros, rendimiento, importe)
 
 def mostrar_menu():
     print("Seleccione un ejercicio para ejecutar:")
